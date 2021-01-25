@@ -1,9 +1,12 @@
 # Data file descriptor
+
+## raw_data.xlsx
+
 Comparison of drug follow-up time in randomized controlled trials (RCT) registered in
 ClinicalTrials.gov vs patient drug exposure times calculated from the Commercial Claims
 and Encounters (CCAE) database. All durations are in days. 
 
-## Columns
+### Columns
 `drug_concept_id`: OMOP concept ID of drug ingredient  
 `num_trials`: Number of RCTs investigating this drug ingredient  
 `num_persons_RCT`: Total number of participants enrolled across RCTs  
@@ -36,5 +39,5 @@ and Encounters (CCAE) database. All durations are in days.
 `pct_person_gt_p25RCT`: Percent of patients with drug exposure times greater than the 25th percentile RCT follow-up time  
 `pct_person_gt_p75RCT`: Percent of patients with drug exposure times greater than the 75th percentile RCT follow-up time  
 `pct_person_gt_p90RCT`: Percent of patients with drug exposure times greater than the 90th percentile RCT follow-up time  
-`concept_name`: drug ingredient (concept name from OMOP Vocabulary)  
+`concept_name`: Drug ingredient (concept name from OMOP Vocabulary)  
 `atc1_name`: Anatomical Therapeutic Chemical (ATC) classifiation system 1st level  
